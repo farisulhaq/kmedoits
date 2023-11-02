@@ -20,4 +20,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://farisulhaq:$HF_TOKEN@huggingface.co/spaces/farisulhaq/kmedoits main
+        run: git push https://farisulhaq:$HF_TOKEN@huggingface.co/spaces/farisulhaq/kmedoits main
