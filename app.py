@@ -39,7 +39,7 @@ dataframe, preporcessing, modeling, implementation = st.tabs(
 # dataset
 with dataframe:
     progress()
-    uploaded_file = st.file_uploader("Upload your file here...", type=[
+    uploaded_file = st.file_uploader("Upload file disini yaa...", type=[
                                      'xlsx'], accept_multiple_files=False)
     if uploaded_file is not None:
         starting_medoids = None
